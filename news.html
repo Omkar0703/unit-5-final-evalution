@@ -4,14 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./scripts/news.js" type="module"></script>
-    
-    <title>Detailed news</title>
+    <script src="./scripts/index.js" type="module"></script>
+
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>News App</title>
   </head>
   <body>
+    <!-- Give Navbar with id "navbar"  -->
     <div id="navbar"></div>
-    <!-- Same navbar with same functionality  -->
-    <!-- Append detailed news in div with id "detailed_news"  -->
-    <div id="detailed_news"></div>
+    <div id="main-content">
+      <div id="sidebar">
+        <h3><a id="in">INDIA</a></h3>
+        <h3><a id="ch">CHINA</a></h3>
+        <h3><a id="us">USA</a></h3>
+        <h3><a id="uk">UK</a></h3>
+        <h3><a id="nz">NEWZEALAND</a></h3>
+      </div>
+      <div id="results"></div>
+    </div>
+
+    <!-- Navbar will have input with id search_input and a link to home page i.e. index.html -->
+    <!-- Sidebar will have id "sidebar"  -->
+    <!-- Give link to top headlines of countries in sidebar with id as their country codes 
+    india :- in
+    china :- ch
+    usa :- us
+    uk : uk
+    Newzeland :- nz -->
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
   </body>
 </html>
